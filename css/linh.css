@@ -1,0 +1,85 @@
+.line{display:block; margin:25px}
+.line h2{font-size:30px; text-align:center; border-bottom:10px solid grey; position:relative; }
+.line h2 span { background-color: white; position: relative; top:20px; padding: 0 10px;}
+
+.navb ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.navb li {
+  float: left;
+}
+
+.navb li a, .dropbtnl {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navb li a:hover, .dropdownl:hover .dropbtnl {
+  background-color: lightblue;
+  color: green;
+}
+
+.navb li.dropdownl {
+  display: inline-block;
+}
+
+.dropdownl-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255,255,255,0.8);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownl-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdownl-content a:hover {background-color: #f1f1f1;}
+
+.dropdownl:hover .dropdownl-content {
+  display: block;
+}
+
+.carousel1 h1 {
+  font-size: 50px;
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+.carousel1 {
+  color: lightgreen;
+  letter-spacing: .15em;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89, -9px 18px 1px #8f8e8d, -10px 20px 1px #949392, -11px 22px 1px #999897, -12px 24px 1px #9e9c9c; 
+}
+.card {
+    width: 100%;
+    height: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    border: 1px solid white;
+    transition:0.5s ease-in-out;
+}
+.card:hover{
+    border: 1px solid lavender;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    transform: translateY(-2%);
+    transition: all 0.5s;
+    cursor:all-scroll;
+}

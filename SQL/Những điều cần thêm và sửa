@@ -1,0 +1,11 @@
+1. Lưu ý các bảng và bảng TAI_KHOAN_NHAN_VIEN chỗ TKNV_MAT_KHAU, sửa thành TKNV_MATKHAU x
+2. Thêm cột mô tả sản phẩm vào bảng SACH, thay đổi kiểu dữ liệu của thuộc tính S_ANH thành varchar(150) x
+3. Mã hóa mật khẩu trước khi đưa vào csdl 
+4. Xem các kiểu dữ liệu của thuộc tính từng bảng trong file data.sql rồi sửa trong mô hình cdm lại(Làm sao cho thống nhất 2 bên) x
+5. Sửa bảng TK của nhân viên và khách hàng (khóa chính) x
+6. Gom bảng TAI_KHOAN_NHAN_VIEN vào NHAN_VIEN, bảng TAI_KHOAN_KHACH_HANG vào KHACH_HANG
+7. Bỏ bảng THANH_TOAN
+8. Thêm HD_TINHTRANG vào bảng HOA_DON
+9. Xóa NV_MA của bảng HOA_DON
+10. Xem kỹ bảng HOA_DON rồi sủa lại cho giống nhau
+11. Thêm bảng CHI_TIET_HOA_DON
